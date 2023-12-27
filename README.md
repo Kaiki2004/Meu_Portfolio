@@ -4,7 +4,7 @@ Olá, me chamo Kaiki Andrade, sou estudande de Engenharia de Software e esse é 
 Esse portfóli tem o objetivo de me apresentar para as pessoas e mostrar tudo que fiz e estudei
 e assim mostrar a minha trajetória na área de programação.
 ---
-**Contém os meus projetos/conhecimentos e mais**
+**Conteúdos do portfóli:**
 - Projetos JavaScript
 - Projetos HTML & CSS
 - Projetos com Bootstrap
