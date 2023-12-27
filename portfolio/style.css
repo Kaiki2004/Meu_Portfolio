@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 10em;
+    background: rgb(26, 25, 25);
+
+}
+
+#botao{
+    border-radius: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+
+}
+
+body {
+    background-color: black;
+    font-family: serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+#conatiner {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: block;
+    width: auto;
+    font-size: 0.9em;
+}
+
+
+#perfilSub {
+    display: inline-flex;
+    width: 1570px;
+
+}
+
+#text {
+    align-items: center;
+    display: inline-flex;
+    color: yellowgreen;
+    font-family: "Open Sans";
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    width: 700px;
+    padding: 10px;
+    font-size: 1.7em;
+
+}
+
+#fotoSP {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#foto {
+    height: 450px;
+    border-radius: 30%;
+}
+
+
+.titulos {
+    margin: 100px;
+    text-align: center;
+}
+
+.titulos2 {
+    margin: 30px;
+}
+
+#quemSou {
+    margin-top: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+    font-size: 1.5em;
+
+}
+
+#quem_sou {
+    display: flex;
+}
+
+#qmSub {
+    margin: 10px;
+}
+
+.Foto2 {
+    border-radius: 10px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+#objetivos {
+    margin: auto 10px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+    font-size: 1.5em;
+
+}
+
+#obj {
+    display: flex;
+}
+
+#ObjetivoSub {
+    margin: 30px;
+}
+
+#conhecimentos {
+    background: linear-gradient(black, rgb(19, 19, 19));
+    text-decoration: none;
+    list-style: none;
+}
+
+#conhecimentos li {
+    display: inline-flex;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3em;
+
+}
+
+#conhecimentos ul {
+    text-align: center;
+}
+
+#conhecimentos ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.itens {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid rgb(7, 6, 6);
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.itens:hover {
+    background: rgb(26, 25, 25);
+    border-radius: 10px;
+}
+
+#projetos {
+    margin-top: 100px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#projetosSub {
+    text-align: center;
+    font-size: 1.5em
+}
+
+#projetosSub .itens {
+    margin: 100px auto;
+}
+
+.titulo {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: yellowgreen;
+    margin-bottom: 50px;
+}
+
+
+#projetos a {
+    margin: 20px;
+    padding: 50px;
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-size: 1em;
+}
+
+
+#projetos a:hover {
+    color: yellowgreen;
+}
+
+#certificados {
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#quadro {
+    border-radius: 20px;
+    background-color: rgb(26, 25, 25);
+    flex-wrap: wrap;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.imagemSP {
+    margin: 30px;
+    text-align: center;
+}
+
+.imagemSP p {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.imagemSP a {
+    color: white;
+}
+
+.img {
+    height: 200px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+#Contato {
+    margin: 200px 0;
+    background-color: rgb(25, 25, 112, 0.1);
+    padding: 10px;
+    margin: 200px 100px 150px;
+    padding-bottom: 50px;
+    ;
+    text-align: center;
+}
+
+#formulario {
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    background: rgb(25, 25, 112, 0.2);
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#usuario {
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 50px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+label {
+    font-size: 1.4em;
+}
+
+input {
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+textarea {
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+button {
+    width: 100px;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 1.2em;
+}
+
+
+#formularioSP {
+    display: inline-flex;
+    margin: 10px;
+}
+
+#redeSocial {
+    margin-left: 200px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 112, 0.2);
+}
+
+#minhasRedes {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 420px;
+}
+
+#icon {
+    padding: 10px;
+    margin: 20px;
+    display: inline-flex;
+    max-width: 100px;
+    max-height: 95px;
+
+}
+
+#icon:hover {
+    border-radius: 50px;
+    background-color: #191970;
+}
+
+#icon a {
+    color: white;
+}
+
+#icon a p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#rodape {
+    margin-top: 260px;
+    padding: 30px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: block;
+}
+
+#social {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.socialMedia {
+    margin: 10px;
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.socialMedia a:hover {
+    color: rgb(165, 165, 255);
+}
+
+#fim {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
