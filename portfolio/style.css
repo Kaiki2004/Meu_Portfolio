@@ -206,6 +206,10 @@ body {
     margin: 30px;
     padding: 20px;
     text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
 }
 
 #quadro {
@@ -219,7 +223,7 @@ body {
     align-items: center;
     justify-items: center;
     max-width: 1200px;
-    margin-left: auto
+    margin: auto;
 }
 
 
