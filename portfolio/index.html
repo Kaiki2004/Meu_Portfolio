@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <link rel="stylesheet" href="style.css">
     <a href="https://wa.me/16908750864"><img id="botao" src="imagens/whatsapp.png" alt="Botão Whatsapp"></a>
     <title>Portfóli Kaiki Andrade</title>
@@ -30,14 +30,15 @@
             <div id="quem_sou">
                 <div id="qmSub">
                     <p>
-                        Sou estudante de engenharia de software, bacharelando no Centro Universitário Municipal de Franca
-                        (Uni-FACEF) ensino médio completo,
-                        possuo nível de inglês avançado,certificado de Cambridge Preliminary B1. Pretendo prestar o
-                        exame de
-                        proficiência FCE.
-                        Com foco na área de tecnologia, sempre fui dedicado e focado, busco experiências e novos
-                        aprendizados para agregar na minha vida profissional e pessoal e assim, ser um profissional de
-                        excelência.
+                        Sou um estudante de engenharia de software, estou bacharelando no Centro Universitário Municipal
+                        de Franca (Uni-FACEF) e pretendo me formar no ano de 2026, possuo nível de inglês intermediário,
+                        com certificação de Cambridge Preliminary B1, continuo estudando e praticando o inglês com o
+                        intuito de atingir o nível avançado e prestar a prova de proficiência Cambridge Fisrt
+                        Certificate (FCE).
+                    </p>
+                    <p> Além disso, sou um cara esforçado que busca novas experiências e aprendizados. Fora do mundo
+                        profissional sou apaixonado por videogame e a cultura geek.
+
                     </p>
                 </div>
                 <div>
@@ -56,12 +57,15 @@
                 </div>
                 <div id="ObjetivoSub">
                     <p>
-                        - Aplicar os conhecimentos adquiridos durante minha graduação em
-                        Engenharia de Software através de soluções críticas.<br><br>
-                        - Adquirir novos conhecimentos e experiências.<br><br>
-                        - Desenvolver minhas habilidades de trabalho em equipe.<br><br>
+                        - Aplicar os conhecimentos adquiridos durante minha graduação em Engenharia de Software através
+                        de soluções críticas. <br><br>
+                        - Adquirir novos conhecimentos e experiências. <br><br>
+                        - Aprimorar meu inglês. <br><br>
+                        - Desenvolver minhas habilidades de trabalho em equipe. <br><br>
                         - Desenvolver minha carreira sob a supervisão de uma empresa comprometida com desenvolvimento e
-                        inovação.<br><br>
+                        inovação. <br><br>
+                        - Me tornar um programador Full-Stack. <br><br>
+
                     </p>
                 </div>
             </div>
@@ -168,7 +172,8 @@
                     </a>
                 </div>
                 <div class="imagemSP">
-                    <img class="img" src="imagens/Captura de tela 2023-12-12 102229.png" alt="Google Cloud Infraestrutura">
+                    <img class="img" src="imagens/Captura de tela 2023-12-12 102229.png"
+                        alt="Google Cloud Infraestrutura">
                     <a href="https://www.cloudskillsboost.google/public_profiles/b286388c-0824-400d-a71f-bc439340e6d9">
                         <p>Google Cloud Infraestrutura</p>
                     </a>
@@ -180,7 +185,8 @@
                     </a>
                 </div>
                 <div class="imagemSP">
-                    <img class="img" src="imagens/Desenvolvimento e liderança.jpeg" alt="Certificado de Desenvolvimento e liderança">
+                    <img class="img" src="imagens/Desenvolvimento e liderança.jpeg"
+                        alt="Certificado de Desenvolvimento e liderança">
                     <a href="imagens/Desenvolvimento e liderança.pdf">
                         <p>Treinamento DL Jovem - Desenvolvimento e Liderança</p>
                     </a>
@@ -199,22 +205,22 @@
             <div id="formularioSP">
                 <div id="formulario">
                     <img id="usuario" src="imagens/550980-de-icone-de-usuario-gratis-vetor.jpg" alt="usuario">
-                    <form action="">
+                    <form action="https://formsubmit.co/c2b5f9cade028a244129b3385e249a5d" method="POST">
                         <fieldset>
                             <div id="name">
+                                <label for="name">Nome:</label>
+                                <input type="text" name="name" id="nome" placeholder="Digite seu nome" required>
+
                                 <label for="email">Email:</label>
-                                <input type="email" name="email" id="nome" placeholder="Ex:Ana123@gmail.com">
-                            </div>
-                            <div id="talk">
-                                <label for="assunto">Assunto:</label>
-                                <input type="text" name="assunto" id="assunto" placeholder="Ex:Onboarding">
-                            </div>
-                            <div>
+                                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
                                 <label for="area">Conteúdo:</label>
-                                <textarea name="area" id="area" cols="30" rows="5" placeholder="Ex:Dúvidas"></textarea>
+                                <textarea name="area" id="area" cols="30" rows="5" placeholder="Assunto"></textarea>
                             </div>
                             <div><button type="submit">Enviar</button></div>
                         </fieldset>
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <input type="text" name="_honey" style="display: none;">
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
                 <div id="redeSocial">
@@ -240,8 +246,9 @@
                             </a>
                         </div>
                         <div id="icon">
-                            <a href="kaikiandrade64@gmail.com"><ion-icon size="large" name="mail-outline"></ion-icon>
-                                <p>Linkedin</p>
+                            <a href="mailto:kaikiandrade64@gmail.com"><ion-icon size="large"
+                                    name="mail-outline"></ion-icon>
+                                <p>Gmail</p>
                             </a>
                         </div>
                         <div id="icon">
