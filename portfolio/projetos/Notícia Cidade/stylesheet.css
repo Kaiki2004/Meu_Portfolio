@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(imagens/fundo.png) repeat-x top;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#topo {
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png);
+    text-indent: -9999px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#topo ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 1em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: #fff;
+    text-decoration: none;
+    background: url(imagens/divisor.png) no-repeat right center;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+:target{
+    background: #de003e;
+    color: #fff;
+}
+
+#conteudo{
+    border: 1px solid purple;
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+ #tres_colunas #conteudo_primario{
+    width: 400px;
+    float: right;
+    margin: 0 50px 20px 60px;
+    background-color: red;
+}
+
+#duas_colunas #conteudo_primario{
+    width: 800px;
+    float: right;
+    margin: 0 50px 20px 60px;
+    background-color: red;
+}
+
+
+#conteudo_secundario{
+    width: 400px;
+    margin: 0 0 10px 15px;
+    float: right;
+    background-color: orange;
+
+}
+
+#conteudo_lateral{
+    width: 270px;
+    margin: 0 0 10px -1200px;
+    float: right;
+    background-color: blue;
+
+}
+
+#rodape{
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+
+#conteudo_rodape{
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
