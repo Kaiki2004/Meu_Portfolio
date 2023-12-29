@@ -12,7 +12,7 @@ if (nivel === 'Facil') {
 } else if (nivel === 'Medio') {
     criaMoscaTempo = 1150
 } else if (nivel === 'Dificil') {
-    criaMoscaTempo = 750
+    criaMoscaTempo = 700
 }
 function ajusteDeTamanho() {
     altura = window.innerHeight
