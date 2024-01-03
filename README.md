@@ -5,6 +5,7 @@ Esse portfóli tem o objetivo de me apresentar para as pessoas e mostrar tudo qu
 e assim mostrar a minha trajetória na área de programação.
 ---
 **Conteúdos do portfóli:**
+- Apresentação
 - Projetos JavaScript
 - Projetos HTML & CSS
 - Projetos com Bootstrap
